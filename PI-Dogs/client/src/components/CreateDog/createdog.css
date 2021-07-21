@@ -1,0 +1,91 @@
+.Form {
+  padding-bottom: 1%;
+  background-image: url(../../imagenes/bdog.jpg);
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: 100%;
+  text-align: center;
+  display: inline-block;
+  justify-content:space-around;
+  
+}
+
+
+
+.Neon {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  color: blueviolet;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-decoration: none;
+  overflow:hidden;
+  /* transition: 0.5s; */
+  background: transparent;
+  font-family: 'Rock Salt', cursive;
+  border: none;
+  border-radius: 10%;
+}
+
+.Label {
+  color: rgb(255, 255, 255);
+  size: 2.5px;
+  margin: 0px 10px;
+  margin-top: 0px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 11px;
+  text-decoration: none;
+  overflow:hidden;
+  background: transparent;
+  font-family: 'Rock Salt', cursive;
+  border: none;
+  border-radius: 10%;
+  
+}
+
+.Input {
+  /* margin-right: 20px; */
+  position: relative;
+  display: inline-block;
+  padding: 2px 2px;
+  color: blueviolet;
+  letter-spacing: 2px;
+  font-size: 5px;
+  text-decoration: none;
+  overflow:hidden;
+  transition: 0.5s;
+  background: transparent;
+  font-family: 'Rock Salt', cursive;
+  border-color: darkorchid;
+}
+
+p.danger {
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+}
+
+input.danger {
+  border: 2px solid rgb(141, 0, 129);
+}
+
+select.danger {
+  color: rgb(255, 0, 0);
+}
+
+.Select {
+  color: white;
+}
+
+.Butt {
+  background: rgb(82, 18, 82);
+  color: blueviolet;
+}

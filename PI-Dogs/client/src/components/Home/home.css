@@ -1,0 +1,86 @@
+.HomeCss {
+    padding-bottom: 1%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: 100%;
+         
+}
+
+
+.DogCard {
+    margin: 5px;
+    width: 280px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(230, 230, 230);
+    border: solid blueviolet;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 10px;
+    justify-content:space-around;
+    background-image: linear-gradient(105deg, rgba(94, 40, 165, 0.8) 39%, rgba(75, 1, 172, 0.8) 96%);
+    align-items: center; 
+    
+}
+
+.DogCard:hover {
+    color: rgb(93, 54, 201);
+    background:rgb(93, 54, 201);
+    box-shadow: 0 0 10px rgb(93, 54, 201), 0 0 40px rgb(93, 54, 201), 0 0 80px rgb(93, 54, 201);
+}
+
+.NameCard {
+    color:rgb(255, 255, 255)
+}
+
+.Temps {
+    color: rgb(255, 255, 255);
+}
+
+.Img {
+    width: 180px; height: 180px;
+    object-fit: fill;
+}
+.pageNumbers{
+    list-style-type: none;
+    margin-left: 35%;
+    display: flex;
+    background-color: transparent;
+}
+
+.pageNumbers li {
+    border-radius: 10%;
+    color: blueviolet;
+    padding: 10px;
+    border: 1px solid rgb(93, 54, 201);
+    cursor: pointer;
+}
+
+.pageNumbers li.active {
+    border-radius: 5%;
+    background-color: rgb(153, 0, 255);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.pageNumbers li button {
+    border-radius: 5%;
+    background-color: transparent;
+    border: none;
+    color: rgb(164, 0, 179);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.pageNumbers li button:hover{ 
+    border-radius: 5%;
+    background-color: rgb(162, 0, 255);
+    color: rgb(7, 7, 6);
+}
+
+.pageNumbers li button:focus {
+    outline: none;
+}  

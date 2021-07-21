@@ -1,0 +1,44 @@
+.Input {
+    width: 150px;
+    height: 50px;
+    /* margin-right: 25px; */
+    position: relative;
+    display: inline-block;
+    /* padding: 12px 12px; */
+    color: blueviolet;
+    letter-spacing: 2px;
+    /* font-size: 250px; */
+    text-decoration: none;
+    overflow:hidden;
+    font-family: 'Rock Salt', cursive;
+    border-color: darkorchid;
+    border-radius: 5%;   
+}
+input[type="text"] {
+    font-size: 14px;
+}
+
+.Input::placeholder { 
+    color: rgb(253, 253, 253); 
+    font-weight:lighter; 
+    font-size: 14px;
+    
+}
+
+.SearchNeon {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 12px 12px;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow:hidden;
+    transition: 0.5s;
+    background: transparent;
+    font-family: 'Rock Salt', cursive;
+    border: none;
+    border-radius: 10%;
+}

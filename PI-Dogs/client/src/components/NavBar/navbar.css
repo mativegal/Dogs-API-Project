@@ -1,0 +1,32 @@
+.HNB {
+
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+.Logo {
+  width: 100px;
+  /* margin-left: 80%; */
+}
+
+/* .CreateDog {
+    margin-left: 50%;
+    margin-bottom: 25px;
+} */
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* 
+.Search {
+    margin-bottom: 5px;
+} */
+

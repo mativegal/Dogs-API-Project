@@ -1,6 +1,23 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  /* text-align: center;
+  margin: 0;
+  background-image: url(imagenes/bdog.jpg);
+  background-repeat: no-repeat; */
+
+
+  /* display: -webkit-flex;
+    display: flex; */
+   /*  padding-bottom: 38px;
+    background-image: url(imagenes/bdog.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat; */
+ */
+
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +39,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {

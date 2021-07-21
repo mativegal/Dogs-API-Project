@@ -1,0 +1,30 @@
+.Order {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.OBN {
+  color: rgb(115, 0, 149);
+}
+
+.Button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 12px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow:hidden;
+    transition: 0.5s;
+    background: transparent;
+    font-family: 'Rock Salt', cursive;
+    border: none;
+    border-radius: 10%;
+}
